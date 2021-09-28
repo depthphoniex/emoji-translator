@@ -47,7 +47,7 @@ export default function App() {
       <input onChange={emojiinputhandler}></input>
       {/* output part */}
       <h2 style={{ textTransform: "capitalize" }}>{translator}</h2>
-      <h3>emoji list</h3>
+      <h3 style={{ textTransform: "capitalize" }}>emoji list</h3>
       {/* print the emoji in emoji dictionary */}
       {emojilist.map(function (emoji) {
         return (
@@ -58,7 +58,7 @@ export default function App() {
               display: "inline",
               fontSize: "25px",
               padding: "5px 0px 5px 0px",
-              margin: "0px 35px 0px 35px",
+              margin: "0px 10% 0px 10%",
               cursor: "pointer",
               lineHeight: "3"
             }}
