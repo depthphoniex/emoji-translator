@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  text-transform: capitalize;
+}
+input {
+  width: 80%;
+  padding: 12px;
+  font-size: 18px;
+}
+h4:hover {
+  background-color: rgba(32, 32, 139, 0.288);
+}
